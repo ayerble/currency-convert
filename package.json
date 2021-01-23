@@ -1,13 +1,16 @@
 {
-  "name": "currencyconvert",
+  "name": "currency-convert",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "convert.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {}
+  "license": "ISC"
 }
